@@ -11,10 +11,26 @@
 해당 프로젝트는 git과 github으로 버전관리 되고 있으며, github을 통해 오픈소스로 공개되었습니다.
 
 ## install project
-    git clone <본인repository>
+    git clone https://github.com/brain-hack/shortenURL.git
 
 ### install dependency
-    pip install "fastapi[all]"
+    pip install -r requiremnts.txt
 
 ## run app
     uvicorn main:app --reload
+
+### mac
+``` bash 
+    export HOST="localhost:8000"
+    export REDIS_HOST="localhost"
+    export REDIS_PORT=6379
+```
+
+### window
+``` powershell 
+    $env:HOST="localhost:8000"
+    $env:REDIS_HOST="localhost"
+    $env:REDIS_PORT=6379
+```
+
+참고 <a href="https://island-primula-917.notion.site/shortenURL-1f49331971f04dccab2aafee1fe61f1e"> link</a>
