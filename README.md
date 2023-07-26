@@ -18,3 +18,19 @@
 
 ## run app
     uvicorn main:app --reload
+
+### mac
+``` bash 
+    export HOST="localhost:8000"
+    export REDIS_HOST="localhost"
+    export REDIS_PORT=6379
+```
+
+### window
+``` powershell 
+    $env:HOST="localhost:8000"
+    $env:REDIS_HOST="localhost"
+    $env:REDIS_PORT=6379
+```
+
+참고 <a href="https://island-primula-917.notion.site/shortenURL-1f49331971f04dccab2aafee1fe61f1e"> link</a>
